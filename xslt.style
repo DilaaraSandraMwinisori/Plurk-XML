@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Plurk Posts</title>
+            </head>
+            <body>
+                <h2>Plurk Posts</h2>
+                <ul>
+                    <xsl:for-each select="plurks/plurk">
+                        <li>
+                            <strong>User: </strong><xsl:value-of select="username"/>
+                            <br/>
+                            <strong>Content: </strong><xsl:value-of select="content"/>
+                            <br/>
+                            <strong>Timestamp: </strong><xsl:value-of select="timestamp"/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>

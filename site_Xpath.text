@@ -1,0 +1,11 @@
+Select all usernames:
+xpath
+/plurks/plurk/username/text()
+
+Select plurks from a specific user:
+xpath
+/plurks/plurk[username='user2']/content/text()
+
+Select plurks posted after a certain date:
+xpath
+/plurks/plurk[timestamp > '2024-03-16']/content/text()

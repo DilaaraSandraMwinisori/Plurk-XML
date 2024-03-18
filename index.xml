@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plurks>
+    <plurk>
+        <id>1</id>
+        <username>user1</username>
+        <content>Hello from user 1!</content>
+        <timestamp>2024-03-18T12:30:00</timestamp>
+        <likes>5</likes>
+    </plurk>
+    <plurk>
+        <id>2</id>
+        <username>user2</username>
+        <content>Check out this cool photo!</content>
+        <timestamp>2024-03-17T08:45:00</timestamp>
+        <likes>10</likes>
+    </plurk>
+    <plurk>
+        <id>3</id>
+        <username>user3</username>
+        <content>Feeling happy today! 😊</content>
+        <timestamp>2024-03-16T20:15:00</timestamp>
+        <likes>3</likes>
+    </plurk>
+</plurks>
